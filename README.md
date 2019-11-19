@@ -1,6 +1,6 @@
 # TTimer
 
-Lego Truck Trial Timer
+Truck Trial Timer
 
 ## URL
 
