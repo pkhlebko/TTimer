@@ -1,8 +1,7 @@
 import { CommonModule } from '@angular/common';
 
 import { NgModule } from '@angular/core';
-import { SettingsComponent } from './settings/settings.component';
-
+import { SettingsComponent } from './components/settings/settings.component';
 
 @NgModule({
   declarations: [
