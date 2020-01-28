@@ -5,6 +5,7 @@ import { SettingsComponent } from './settings/components/settings/settings.compo
 import { LandingComponent } from './landing/components/landing/landing.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/landing', pathMatch: 'full' },
   { path: 'landing', component: LandingComponent },
   { path: 'timer', component: TimerComponent },
   { path: 'settings', component: SettingsComponent}
