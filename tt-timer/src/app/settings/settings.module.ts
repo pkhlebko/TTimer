@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 
 import { NgModule } from '@angular/core';
 import { SettingsComponent } from './components/settings/settings.component';
+import { SettingsRepositoryService } from './services/settings-repository.service';
 
 @NgModule({
   declarations: [
@@ -10,6 +11,8 @@ import { SettingsComponent } from './components/settings/settings.component';
   imports: [
     CommonModule,
   ],
-  providers: [],
+  providers: [
+    SettingsRepositoryService
+  ],
 })
 export class SettingsModule { }

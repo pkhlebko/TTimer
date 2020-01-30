@@ -9,7 +9,7 @@ export class SettingsRepositoryService {
 
   constructor() { }
 
-  getTrialEvent(): Observable<TrialEvent> {
+  getActiveEvents(): Observable<[TrialEvent]> {
     const event = {
       name: 'Test trial event',
       location: 'Minsk',
@@ -19,7 +19,7 @@ export class SettingsRepositoryService {
       judgesIds: ['root']
     };
 
-    return of(event);
+    return of([event]);
   }
 
   getTrialEventRaces(): Observable<RaceModel[]> {
